@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sartainstudios.contacts.ContactsView">
+
+    <item
+        android:id="@+id/feed"
+        android:title="Feed"
+
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/signOutFeed"
+        android:title="signOut"
+        app:showAsAction="always" />
+
+</menu>
